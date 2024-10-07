@@ -1,0 +1,12 @@
+# Cài đặt package
+#npm install --save-dev @graphql-codegen/cli @graphql-codegen/typescript @graphql-codegen/typescript-operations
+
+# Tạo file cấu hình codegen.yml
+schema: https://hotham.vn/wordpress/rYkOy1HCCRD0JZZcrshVYaUR39QfcG15QWUC437BMM5Pk3gNLu
+generates:
+  ./types/wordpress.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+
+#Sau đó, chạy lệnh graphql-codegen --config codegen.yml để tự động tạo file wordpress.ts
