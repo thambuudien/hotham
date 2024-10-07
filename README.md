@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# www.hotham.vn - Website Đại Lý Bảo Hiểm Hồ Thị Thắm
 
-## Getting Started
+## Giới thiệu
 
-First, run the development server:
+Dự án website cho Đại lý Bảo hiểm Hồ Thị Thắm, được xây dựng với Next.js, TypeScript, Flowbite và WordPress (headless CMS).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tính năng
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Trang chủ:  Giới thiệu dịch vụ,  lời chứng thực,  form tư vấn,...
+* Trang Dịch Vụ:  Liệt kê các gói bảo hiểm chi tiết.
+* Trang Giới Thiệu:  Thông tin về Đại lý Hồ Thị Thắm.
+* Trang Tin Tức/Blog:  Chia sẻ kiến thức,  tin tức bảo hiểm.
+* Trang Liên Hệ:  Form liên hệ,  thông tin liên lạc.
+* Tra cứu bảo hiểm xã hội,  thời hạn thẻ BHYT.
+* Hỗ trợ gia hạn bảo hiểm online.
+* Đăng ký/đăng nhập tài khoản.
+* ... (Các tính năng khác)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Công nghệ sử dụng
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Frontend:
+    * Next.js (App Router)
+    * TypeScript
+    * Flowbite (Component library)
+    * Tailwind CSS
+    * Apollo Client (GraphQL)
+* Backend:
+    * Laravel (API)
+    * WordPress (Headless CMS)
+* Database:
+    * MySQL (hoặc PostgreSQL)
+* Hosting: 
+    * ... (Tùy chọn nhà cung cấp hosting)
 
-## Learn More
+## Cài đặt
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone dự án:  `git clone https://github.com/your-username/hotham-ecosystem.git`
+2. Cài đặt thư viện: 
+    * Frontend:  `cd frontend && npm install`
+    * Backend:  `cd backend && composer install`
+3. Cấu hình:
+    * Tạo file `.env.local`  trong thư mục  `frontend`  và  `backend`  và cập nhật các biến môi trường cần thiết.
+    * Cấu hình database trong  `backend/.env`.
+4. Chạy dự án:
+    * Frontend:  `cd frontend && npm run dev`
+    * Backend:  `cd backend && php artisan serve`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Ghi chú
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Dự án sử dụng WordPress làm headless CMS,  nên cần cài đặt và cấu hình WordPress trước. 
+* Cần có kiến thức về Next.js,  TypeScript,  Laravel,  WordPress và GraphQL để phát triển dự án.
 
-## Deploy on Vercel
+## Liên hệ
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Email:  lienhe@hotham.vn
+* Website:  www.hotham.vn
